@@ -9,9 +9,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Text(
-      "Hello Team!!",
-      textDirection: TextDirection.ltr,
+    return MaterialApp(
+      home: Text("Heya Team!!"),
     );
   }
 }
